@@ -16,3 +16,8 @@ HBase (Upendra Sabnis)
 - Schema table - Rows composed of Cells Stored in Families: Columns
 
 - RDMBS - is governed by schema 
+
+- Architecture: Client -- Zookeeper + Master
+                 \
+                  \
+                    Region
